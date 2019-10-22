@@ -19,6 +19,7 @@ $(document).ready(function() {
   $("#cats").click(function() {
     $("#cats-list").append("<li>Meow!</li>");
     $("#dogs-list").append("<li>Woof!</li>");
+    $('<img src="cat.jpg">').appendTo("#empty");
 
   });
 
@@ -28,4 +29,8 @@ $(document).ready(function() {
 
   });
 
+  // $("#cats").click(function() {
+  //   $("#above").append("<img src="cat.jpg" alt="picture of a cat">");
+  //
+  // });
 });
